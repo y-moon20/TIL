@@ -18,39 +18,9 @@ plt.plot(x축 데이터, y축 데이터, '문자열인수')
 ```
 
 - 색, 마커, 선종류 순으로 '문자열인수'에 입력하여 line plot스타일 지정 가능
-- 색상
-| 색상 | 약자 |
-|-|-|
-| blue | `b` |
-| green | `g` |
-| red | `r` |
-| cyan | `c` |
-| magenta | `m` |
-| yellow | `y` |
-| black | `k` |
-| white | `w` |
-
+- 색상 blue(b), green(g), red(r), cyan(c), magenta(m), black(k)
 - 마커
-| 마커 문자열 | 의미 | 마커 문자열 | 의미 |
-|-|-|-|-|
-| `.` | point marker  | `1` | tri_down marker |
-| `,` | pixel marker | `2` | tri_up marker |
-| `o` | circle marker | `3` | tri_left marker |
-| `v` | triangle_down marker | `4` | tri_right marker |
-| `^` | triangle_up marker | `s` | square marker |
-| `<` | triangle_left marker | `p` | pentagon marker |
-| `>` | triangle_right marker | `*` | star marker |
-| `h` | hexagon1 marker | `x` | x marker |
-| `H` | hexagon2 marker | `D` | diamond marker |
-| `+` | plus marker | `d` | thin_diamond marker |
-
-- 선 스타일
-| 선 스타일 문자열 | 의미 |
-|-|-|
-| `-` |  solid line style
-| `--` |  dashed line style
-| `-.` |  dash-dot line style
-| `:` |  dotted line style
+- 선 스타일 `-`(solid line style), `--`(dashed line style)
 
 
 ## barplot
